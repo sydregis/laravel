@@ -1,0 +1,42 @@
+/* commentaire */
+
+body {
+    background-color: hwb(2 2% 1% / 0.948);
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+justify-content:space-evenly;
+margin: 0;
+padding: 0;}
+
+header nav ul a {
+background-color: green;
+border: 1px solid green;
+color:rgb(232, 221, 23);
+padding: 1rem 2rem;
+text-decoration: none
+}
+
+footer nav ul {
+list-style: none;
+margin: 0;
+padding: 0;}
+
+
+h1 {
+    font-size: 8rem;
+    font-style:oblique;
+    color: rgb(232, 221, 23);
+
+}
+
+img {
+    height: 500px;
+    padding: 25px
+}
+
+img {
+    width: 1000px
+}
