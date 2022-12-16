@@ -17,8 +17,14 @@ Route::get('/accueil', function () {
     return view('accueil');
 })->name('accueil'); 
 
-Route::get('/reservation', function () {
-    return view('reservation');
+Route::get('/reservation/{name}', function ($name) {
+    // traitement des données
+    $name = '"'.$name.'"';
+
+    return view('reservation', [
+        // passage de variables à une vue
+        'name' => $name,
+    ]);
 })->name('reservation');
 
 Route::get('/menu', function () {

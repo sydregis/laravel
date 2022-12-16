@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="{{ route('accueil')}}">Accueil</a></li>
-                <li><a href="{{ route('reservation')}}">Réservation</a></li>
+                <li><a href="{{ route('reservation', ['name' => 'OCnamo'])}}">Réservation</a></li>
                 <li><a href="{{ route('menu')}}">Menu</a></li>
                 <li><a href="{{ route('contact')}}">Contact</a></li>
                 <li><a href="{{ route('mentions-legales')}}">Mentions légales</a></li>

@@ -9,6 +9,7 @@ Projet de site d'un restaurant construit avec laravel 9
 -Composer 2.3.5
 -nodejs 18.4.0 et npm 8.12.0
 
+
 ## Installation
 
 ```bash
